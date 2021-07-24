@@ -3,10 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Yusron")
-	fmt.Println("Muhammad Yusron Hartoyo")
+	var fullname string
+	fullname = "Muhammad Yusron Hartoyo"
+	nickname := "Yusron"
+
+	fmt.Println(nickname)
+	fmt.Println(fullname)
 	// Menghitung jumlah string
-	fmt.Println(len("Yusron"))
+	fmt.Println(len(nickname))
 	// Mengambil karakter berdasarkan posisi yang ditentukan
-	fmt.Println("CyberlabSWJ"[1])
+	fmt.Println(fullname[1])
 }
