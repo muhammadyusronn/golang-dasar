@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	var fullname string
-	fullname = "Muhammad Yusron Hartoyo"
-	nickname := "Yusron"
+	// Multiple variabel
+	var (
+		fullname = "Muhammad Yusron Hartoyo"
+		nickname = "Yusron"
+	)
 
 	fmt.Println(nickname)
 	fmt.Println(fullname)
